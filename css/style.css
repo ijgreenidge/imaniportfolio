@@ -1,3 +1,10 @@
-.smaller{
+.visitPage{
+    padding-top: 49px
+}
+  .smaller{
     max-width:80px;
+}
+
+.tvg{
+    height:297px;
 }
