@@ -1,10 +1,15 @@
-.visitPage{
-    padding-top: 49px
-}
-  .smaller{
-    max-width:80px;
+.visitPage {
+    font-size: 20px;
 }
 
-.tvg{
-    height:297px;
+.smaller {
+    max-width: 80px;
 }
+
+
+
+/*.parallax-container {*/
+
+/*      height: px;*/
+
+/*    }*/
