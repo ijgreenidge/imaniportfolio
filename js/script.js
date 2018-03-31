@@ -19,10 +19,28 @@
 
  $(document).ready(function() {
   $('.parallax').parallax();
+  
+    $('.carousel.carousel-slider').carousel({ indicators: true });
+    $('.carousel.carousel-slider').carousel({ fullWidth: false });
+    autoplay();
+
+    function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 4000);
+    }
 
  });
 
- $(document).ready(function() {
-  $('.tooltipped').tooltip({ delay: 50 });
- });
  
+ 
+// Initialize Firebase
+  // var config = {
+  //   apiKey: "AIzaSyAVqtabe9PZTAWHNCCJ4wNgeu4g0qGWfOA",
+  //   authDomain: "imani-da538.firebaseapp.com",
+  //   databaseURL: "https://imani-da538.firebaseio.com",
+  //   projectId: "imani-da538",
+  //   storageBucket: "",
+  //   messagingSenderId: "874151128786"
+  // };
+  // firebase.initializeApp(config);
+  
