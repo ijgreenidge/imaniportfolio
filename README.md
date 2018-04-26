@@ -1,6 +1,11 @@
-# imaniportfolio
+# IMANI GREENIDGE
+This is the portfolio of aspiring Software Developer and Entrepreneur, Imani Greenidge.
 
-I am Imani Greenidge and I dream big. Big Dreams Big Goals and I'm not going to stop until they become invevitable.
+Website built using: 
+- HTMl
+- CSS
+- MaterializeCSS
+- JavaScript
 
-- "The person with the big dreams is more powerful than the one with all the facts." - H. Jackson Brown
-- "So many of our dreams at first seem Impossible then they seem Improbable, and then, when we summon the will, they soon become INEVITABLE." - Christopher Reeves
+
+
