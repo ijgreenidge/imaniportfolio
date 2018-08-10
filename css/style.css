@@ -1,8 +1,14 @@
 body {
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-
+main {
+    flex: 1 0 auto;
+    margin-top: 0;
+}
 .visitPage {
     font-size: 20px;
 }
@@ -25,12 +31,14 @@ body {
 }
 
 .carousel.carousel-slider {
-    height: 750px;
-    max-height: 750px;
-
+    height: 100%;
+    max-height: 800px;
 }
-
 
 .card .card-content p {
     font-weight: bold;
+}
+
+.navLink {
+    margin-top: 15px;
 }
