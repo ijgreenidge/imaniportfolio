@@ -31,8 +31,12 @@ main {
 }
 
 .carousel.carousel-slider {
-    height: 100%;
-    max-height: 800px;
+    height:1200px;
+  
+}
+
+.carousel img {
+    height:1400px;
 }
 
 .card .card-content p {
